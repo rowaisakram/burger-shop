@@ -1,10 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
 :root {
   --primary-color: #fff;
   --secondary-color: #ffc045;
   --text-color: #3d2514;
   --button-color: #bf2222;
   --shadow-color: #fee8bc;
+  --box-shadow: #dedede;
+  --border-color: #fafafa;
 }
 
 * {
@@ -109,6 +112,7 @@ button {
 .align-items-end{
     align-items: flex-end;
 }
+
 /* flex classes end*/
 
 .container {
@@ -212,7 +216,7 @@ li{
 }
 
 /* Burger Section*/
-.burgersection-wrapper button{
+.buttonburger button{
     background-color: var(--secondary-color);
     font-family: "Bebas Neue", sans-serif;
     font-size: 25px;
@@ -223,10 +227,57 @@ li{
     padding: 30px 0px;
 }
 .burger-text p{
-    text-align: center;
+    
     padding: 30px 0px;
 }
-
-.product-burger{
+.product-burger h4{
     color: var(--text-color);
+}
+.product-burger >div{
+    width:33.3%;
+}
+.product-burger div:nth-child(2) figure{
+    height: 65%;
+}
+.product-burger img{
+    width: 100%;
+}
+.product-burger p{
+    padding: 25px;
+}
+.product-burger button:hover{
+    color: var(--secondary-color);
+    scale: 1.2;
+    transition: scale 1s;
+}
+
+/*Banner */
+.banner-wrapper{
+    padding: 100px 0px;
+}
+.banner-wrapper h3{
+    color: var(--text-color);
+    font-family: "Alfa Slab One", cursive;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.banner-wrapper p{
+    font-size: 20px;
+    padding-top: 40px;
+    line-height:25px;
+    letter-spacing: 1px;
+}
+.banner-border div:first-child{
+    padding: 60px;
+}
+.banner-border div:nth-child(2){
+    padding: 24px;
+}
+.banner-border{
+    border: 1px solid var(--border-color);
+    box-shadow: 20px 20px 20px  var(--box-shadow);
+}
+.circle{
+    padding-top: 80px;
+    gap:8px;
 }
