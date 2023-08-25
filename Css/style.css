@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat");
+:root {
+  --primary-color: #fff;
+  --secondary-color: #ffc045;
+  --text-color: #3d2514;
+  --button-color: #bf2222;
+  --shadow-color: #fee8bc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: var(--text-color);
+  font-family: "Bebas Neue", sans-serif;
+}
+h1 {
+  font-size: 114px;
+  font-family: "Alfa Slab One", cursive;
+  font-weight: 700;
+  line-height: 150px;
+  letter-spacing: 5px;
+}
+h2 {
+  font-size: 57px;
+  font-family: "Alfa Slab One", cursive;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 70px;
+  letter-spacing: 3px;
+}
+h3 {
+  font-size: 42px;
+  font-family: "Bebas Neue", sans-serif;
+  color: var(--primary-color);
+  line-height: 40px;
+  letter-spacing: 2px;
+}
+h4 {
+  font-size: 25px;
+  font-family: "Bebas Neue", sans-serif;
+  color: var(--primary-color);
+}
+h5 {
+  font-size: 30px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 200;
+}
+h6 {
+  font-size: 25px;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+p {
+  font-size: 17px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: capitalize;
+}
+button {
+  font-size: 20px;
+  display: inline-block;
+  font-family: "Alfa Slab One", cursive;
+  background-color: var(--button-color);
+  text-transform: uppercase;
+  padding: 10px 30px;
+  border: none;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+.position-relative {
+  position: relative;
+}
+.position-absolute {
+  position: absolute;
+}
+.text-align {
+  text-align: center;
+}
+
+.shadow {
+  text-shadow: 4px 4px var(--shadow-color);
+}
+.border-radius {
+  border-radius: 10px;
+}
+/* flex classes Start*/
+.flex-1 {
+  flex: 1;
+}
+.d-flex {
+  display: flex;
+}
+.align-items-center {
+  align-items: center;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.justify-content-end {
+  justify-content: flex-end;
+}
+.align-items-top {
+  align-items: top;
+}
+.align-items-end{
+    align-items: flex-end;
+}
+/* flex classes end*/
+
+.container {
+  max-width: 1330px;
+  margin: 0 auto;
+}
+li{
+    font-size: 21px;
+    letter-spacing: 3px;
+}
+
+/*Header*/
+.header-wrapper{
+    background-image: url(../Pics/Headerbackground.png);
+    background-size: cover;
+    background-position: center center;
+}
+.logo{
+    padding-top: 60px;
+}
+.delivery{
+    padding-top: 3px;
+}
+.deli-num{
+    padding: 10px;
+}
+.deli-num span{
+    transition: font-size 1s, color .5s;
+}
+.deli-num span:hover{
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+}
+.navbar ul{
+    justify-content: flex-end;
+    gap:54px;
+}
+.navbar ul > li{
+    list-style: none;
+}
+.navbar ul>li:hover{
+    color: var(--primary-color);
+    cursor: pointer;
+}
+.hero-sec{
+    padding: 76px 0px;
+}
+.hero-text{
+  padding-top: 75px;
+}
+.hero-text h5{
+    border:2px dashed var(--text-color);
+    display: inline-block;
+    padding: 15px 20px;
+}
+.hero-sec img{
+    transition: scale 1s;
+}
+.hero-sec img:hover{
+    scale: 1.1;
+}
+.hero-text button{
+    margin-left: 30px;
+    margin-top: 40px;
+    transition: scale 1s;
+}
+.hero-text button:hover{
+    color: var(--secondary-color);
+    scale:1.2;
+}
+
+/* Product */
+.product{
+    padding: 80px 70px 70px 70px;
+}
+.product1{
+    background-image: url(../Pics/BurgerImage.png);
+    background-size: cover;
+    min-height: 60vh;
+}
+.product2{
+    background-image: url(../Pics/BurgerImage3.png);
+    background-size: cover;
+    min-height: 30vh;
+    width: 100%;
+}
+.product3{
+    background-image: url(../Pics/BurgerImage2.png);
+    background-size: cover;
+    min-height: 30vh;
+    width: 100%;
+}
+.product-wrapper{
+    gap:40px;
+}
+.product-wrapper div:nth-child(2){
+    flex-direction: column;
+    gap:35px;
+}
+.product-des{
+    padding: 30px 22px;
+}
+
+.burgersection-wrapper button{
+    background-color: var(--secondary-color);
+    font-family: ;
+}
