@@ -71,6 +71,15 @@ button {
   color: var(--primary-color);
   cursor: pointer;
 }
+.btn {
+
+    font-family: "Alfa Slab One", cursive;
+    background-color: var(--button-color);
+    text-transform: uppercase;
+    color: var(--primary-color);
+    cursor: pointer;
+    letter-spacing: 1px;
+  }
 .position-relative {
   position: relative;
 }
@@ -306,13 +315,7 @@ li{
 .res-form form >div{
     width: 100%;
 }
-.res-form button{
-    margin: 12px 30px;
-    border-radius: 4px;
-    font-size: 15px;
-    letter-spacing: 1px;
-    padding: 11px;
-}
+
 .res-form input{
     padding: 12px 80px 12px 10px;   
     margin: 15px 30px;
