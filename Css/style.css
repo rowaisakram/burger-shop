@@ -80,7 +80,6 @@ button {
 .text-align {
   text-align: center;
 }
-
 .shadow {
   text-shadow: 4px 4px var(--shadow-color);
 }
@@ -112,7 +111,9 @@ button {
 .align-items-end{
     align-items: flex-end;
 }
-
+.flex-column{
+    flex-direction: column;
+}
 /* flex classes end*/
 
 .container {
@@ -122,6 +123,11 @@ button {
 li{
     font-size: 21px;
     letter-spacing: 3px;
+}
+::placeholder{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 18px;
+    color: var(--text-color);
 }
 
 /*Header*/
@@ -144,10 +150,9 @@ li{
     color: var(--text-color);
 }
 .deli-num span a:hover{
-    cursor: grab;
+    cursor: pointer;
 }
 .navbar ul{
-    justify-content: flex-end;
     gap:54px;
 }
 .navbar ul > li{
@@ -208,7 +213,6 @@ li{
     gap:40px;
 }
 .product-wrapper div:nth-child(2){
-    flex-direction: column;
     gap:35px;
 }
 .product-des{
@@ -223,12 +227,12 @@ li{
     color: var(--text-color);
 }
 .burger-text{
-    flex-direction: column;
+
     padding: 30px 0px;
 }
 .burger-text p{
-    
-    padding: 30px 0px;
+    line-height: 30px;
+    padding: 20px 0px;
 }
 .product-burger h4{
     color: var(--text-color);
@@ -237,7 +241,7 @@ li{
     width:33.3%;
 }
 .product-burger div:nth-child(2) figure{
-    height: 65%;
+    height: 63%;
 }
 .product-burger img{
     width: 100%;
@@ -253,7 +257,7 @@ li{
 
 /*Banner */
 .banner-wrapper{
-    padding: 100px 0px;
+    padding: 100px 0px 70px 0px;
 }
 .banner-wrapper h3{
     color: var(--text-color);
@@ -275,9 +279,96 @@ li{
 }
 .banner-border{
     border: 1px solid var(--border-color);
-    box-shadow: 20px 20px 20px  var(--box-shadow);
+    box-shadow: 0px 0px 100px  var(--box-shadow);
 }
 .circle{
     padding-top: 80px;
     gap:8px;
+}
+
+/*Reservation*/
+.reservation{
+    background-image: url(../Pics/Bottle.png);
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    width: 100%;
+}
+.reservation-wrapper{
+    padding-top: 60px;
+}
+.reservation-wrapper h2{
+    font-size: 50px;
+}
+.res-form{
+    padding-top: 50px;
+}
+.res-form form >div{
+    width: 100%;
+}
+.res-form button{
+    margin: 12px 30px;
+    border-radius: 4px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 11px;
+}
+.res-form input{
+    padding: 12px 80px 12px 10px;   
+    margin: 15px 30px;
+    border: 1px solid #bebebe;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+/*Footer*/
+.footer{
+    padding-bottom: 60px;
+}
+.footer-wrapper{
+    background-image: url(../Pics/Footer.png);
+    height: 75vh;
+} 
+.footer-wrapper img{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(42deg) brightness(103%) contrast(103%);
+    padding: 90px 70px 50px 70px;
+    scale: 1.2;
+}
+.footer-paragraph p{
+    color: var(--primary-color);
+    padding-left:50px;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+.footer-paragraph p:nth-child(3){
+    font-family: "Bebas Neue", sans-serif;
+    height: 23vh;
+}
+.footer-wrapper div:nth-child(2){
+    color: var(--primary-color);
+}
+.footer-wrapper div:nth-child(2) p{
+    font-family:"Bebas Neue", sans-serif;
+    letter-spacing: 2px;   
+}
+.footer-wrapper div:nth-child(2) p i{
+    padding-right: 10px;
+    font-size: 22px;
+}
+.socail-links i{
+    padding: 3px;
+}
+.socail-links{
+    width: 42vw;
+    margin-top: auto;
+    padding: 30px;
+}
+.contact-us{
+    gap: 10px;
+}
+.contact-us a, 
+.socail-links a{
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--primary-color);
 }
