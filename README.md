@@ -28,5 +28,5 @@ To get a local copy up and running, follow these simple steps:
 ## Contributing
 Contributions are welcome! If you have any ideas for improvements or have found any bugs, feel free to open an issue or submit a pull request.
 
-##Disclaimer
+## Disclaimer
 This project is intended for educational purposes only. The design and layout are based on a template that is not originally mine. Most of the links are non-functional and are included for demonstration purposes only.
