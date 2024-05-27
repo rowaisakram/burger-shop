@@ -72,14 +72,13 @@ button {
   cursor: pointer;
 }
 .btn {
-
-    font-family: "Alfa Slab One", cursive;
-    background-color: var(--button-color);
-    text-transform: uppercase;
-    color: var(--primary-color);
-    cursor: pointer;
-    letter-spacing: 1px;
-  }
+  font-family: "Alfa Slab One", cursive;
+  background-color: var(--button-color);
+  text-transform: uppercase;
+  color: var(--primary-color);
+  cursor: pointer;
+  letter-spacing: 1px;
+}
 .position-relative {
   position: relative;
 }
@@ -117,11 +116,11 @@ button {
 .align-items-top {
   align-items: top;
 }
-.align-items-end{
-    align-items: flex-end;
+.align-items-end {
+  align-items: flex-end;
 }
-.flex-column{
-    flex-direction: column;
+.flex-column {
+  flex-direction: column;
 }
 /* flex classes end*/
 
@@ -129,249 +128,248 @@ button {
   max-width: 1330px;
   margin: 0 auto;
 }
-li{
-    font-size: 21px;
-    letter-spacing: 3px;
+li {
+  font-size: 21px;
+  letter-spacing: 3px;
 }
-::placeholder{
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 18px;
-    color: var(--text-color);
+::placeholder {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 18px;
+  color: var(--text-color);
 }
 
 /*Header*/
-.header-wrapper{
-    background-image: url(../Pics/Headerbackground.png);
-    background-size: cover;
-    background-position: center center;
+.header-wrapper {
+  background-image: url(../Pics/Headerbackground.png);
+  background-size: cover;
+  background-position: center center;
 }
-.logo{
-    padding-top: 60px;
+.logo {
+  padding-top: 60px;
 }
-.delivery{
-    padding-top: 3px;
+.delivery {
+  padding-top: 3px;
 }
-.deli-num{
-    padding: 10px;
+.deli-num {
+  padding: 10px;
 }
-.deli-num span a{
-    text-decoration: none;
-    color: var(--text-color);
+.deli-num span a {
+  text-decoration: none;
+  color: var(--text-color);
 }
-.deli-num span a:hover{
-    cursor: pointer;
+.deli-num span a:hover {
+  cursor: pointer;
 }
-.navbar ul{
-    gap:54px;
+.navbar ul {
+  gap: 54px;
 }
-.navbar ul > li{
-    list-style: none;
+.navbar ul > li {
+  list-style: none;
 }
-.navbar ul>li:hover{
-    color: var(--primary-color);
-    cursor: pointer;
+.navbar ul > li:hover {
+  color: var(--primary-color);
+  cursor: pointer;
 }
-.hero-sec{
-    padding: 76px 0px;
+.hero-sec {
+  padding: 76px 0px;
 }
-.hero-text{
+.hero-text {
   padding-top: 75px;
 }
-.hero-text h5{
-    border:2px dashed var(--text-color);
-    display: inline-block;
-    padding: 15px 20px;
+.hero-text h5 {
+  border: 2px dashed var(--text-color);
+  display: inline-block;
+  padding: 15px 20px;
 }
-.hero-sec img{
-    transition: scale 1s;
+.hero-sec img {
+  transition: scale 1s;
 }
-.hero-sec img:hover{
-    scale: 1.1;
+.hero-sec img:hover {
+  scale: 1.1;
 }
-.hero-text button{
-    margin-top: 40px;
-    transition: scale 1s;
+.hero-text button {
+  margin-top: 40px;
+  transition: scale 1s;
 }
-.hero-text button:hover{
-    color: var(--secondary-color);
-    scale:1.2;
+.hero-text button:hover {
+  color: var(--secondary-color);
+  scale: 1.2;
 }
 
 /* Product */
-.product{
-    padding: 80px 0px;
+.product {
+  padding: 80px 0px;
 }
-.product1{
-    background-image: url(../Pics/BurgerImage.png);
-    background-size: cover;
-    min-height: 60vh;
+.product1 {
+  background-image: url(../Pics/BurgerImage.png);
+  background-size: cover;
+  min-height: 60vh;
 }
-.product2{
-    background-image: url(../Pics/BurgerImage3.png);
-    background-size: cover;
-    min-height: 30vh;
-    width: 100%;
+.product2 {
+  background-image: url(../Pics/BurgerImage3.png);
+  background-size: cover;
+  min-height: 30vh;
+  width: 100%;
 }
-.product3{
-    background-image: url(../Pics/BurgerImage2.png);
-    background-size: cover;
-    min-height: 30vh;
-    width: 100%;
+.product3 {
+  background-image: url(../Pics/BurgerImage2.png);
+  background-size: cover;
+  min-height: 30vh;
+  width: 100%;
 }
-.product-wrapper{
-    gap:40px;
+.product-wrapper {
+  gap: 40px;
 }
-.product-wrapper div:nth-child(2){
-    gap:35px;
+.product-wrapper div:nth-child(2) {
+  gap: 35px;
 }
-.product-des{
-    padding: 30px 22px;
+.product-des {
+  padding: 30px 22px;
 }
 
 /* Burger Section*/
-.buttonburger button{
-    background-color: var(--secondary-color);
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 25px;
-    color: var(--text-color);
+.buttonburger button {
+  background-color: var(--secondary-color);
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 25px;
+  color: var(--text-color);
 }
-.burger-text{
-
-    padding: 30px 0px;
+.burger-text {
+  padding: 30px 0px;
 }
-.burger-text p{
-    line-height: 30px;
-    padding: 20px 0px;
+.burger-text p {
+  line-height: 30px;
+  padding: 20px 0px;
 }
-.product-burger h4{
-    color: var(--text-color);
+.product-burger h4 {
+  color: var(--text-color);
 }
-.product-burger >div{
-    width:33.3%;
+.product-burger > div {
+  width: 33.3%;
 }
-.product-burger div:nth-child(2) figure{
-    height: 63%;
+.product-burger div:nth-child(2) figure {
+  height: 63%;
 }
-.product-burger img{
-    width: 100%;
+.product-burger img {
+  width: 100%;
 }
-.product-burger p{
-    padding: 25px;
+.product-burger p {
+  padding: 25px;
 }
-.product-burger button:hover{
-    color: var(--secondary-color);
-    scale: 1.2;
-    transition: scale 1s;
+.product-burger button:hover {
+  color: var(--secondary-color);
+  scale: 1.2;
+  transition: scale 1s;
 }
 
 /*Banner */
-.banner-wrapper{
-    padding: 100px 0px 70px 0px;
+.banner-wrapper {
+  padding: 100px 0px 70px 0px;
 }
-.banner-wrapper h3{
-    color: var(--text-color);
-    font-family: "Alfa Slab One", cursive;
-    text-transform: uppercase;
-    font-size: 40px;
+.banner-wrapper h3 {
+  color: var(--text-color);
+  font-family: "Alfa Slab One", cursive;
+  text-transform: uppercase;
+  font-size: 40px;
 }
-.banner-wrapper p{
-    font-size: 20px;
-    padding-top: 40px;
-    line-height:25px;
-    letter-spacing: 1px;
+.banner-wrapper p {
+  font-size: 20px;
+  padding-top: 40px;
+  line-height: 25px;
+  letter-spacing: 1px;
 }
-.banner-border div:first-child{
-    padding: 60px;
+.banner-border div:first-child {
+  padding: 60px;
 }
-.banner-border div:nth-child(2){
-    padding: 24px;
+.banner-border div:nth-child(2) {
+  padding: 24px;
 }
-.banner-border{
-    border: 1px solid var(--border-color);
-    box-shadow: 0px 0px 100px  var(--box-shadow);
+.banner-border {
+  border: 1px solid var(--border-color);
+  box-shadow: 0px 0px 100px var(--box-shadow);
 }
-.circle{
-    padding-top: 80px;
-    gap:8px;
+.circle {
+  padding-top: 80px;
+  gap: 8px;
 }
 
 /*Reservation*/
-.reservation{
-    background-image: url(../Pics/Bottle.png);
-    background-size: cover;
-    background-position: center center;
-    min-height: 100vh;
-    width: 100%;
+.reservation {
+  background-image: url(../Pics/Bottle.png);
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  width: 100%;
 }
-.reservation-wrapper{
-    padding-top: 60px;
+.reservation-wrapper {
+  padding-top: 60px;
 }
-.reservation-wrapper h2{
-    font-size: 50px;
+.reservation-wrapper h2 {
+  font-size: 50px;
 }
-.res-form{
-    padding-top: 50px;
+.res-form {
+  padding-top: 50px;
 }
-.res-form form >div{
-    width: 100%;
+.res-form form > div {
+  width: 100%;
 }
 
-.res-form input{
-    padding: 12px 80px 12px 10px;   
-    margin: 15px 30px;
-    border: 1px solid #bebebe;
-    border-radius: 4px;
-    font-size: 15px;
+.res-form input {
+  padding: 12px 80px 12px 10px;
+  margin: 15px 30px;
+  border: 1px solid #bebebe;
+  border-radius: 4px;
+  font-size: 15px;
 }
 
 /*Footer*/
-.footer{
-    padding-bottom: 60px;
+.footer {
+  background-image: url(../Pics/Footer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.footer-wrapper{
-    background-image: url(../Pics/Footer.png);
-    height: 75vh;
-} 
-.footer-wrapper img{
-    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(42deg) brightness(103%) contrast(103%);
-    padding: 90px 70px 50px 70px;
-    scale: 1.2;
+
+.footer-wrapper img {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(42deg)
+    brightness(103%) contrast(103%);
+  padding: 90px 70px 50px 70px;
+  scale: 1.2;
 }
-.footer-paragraph p{
-    color: var(--primary-color);
-    padding-left:50px;
-    letter-spacing: 2px;
-    line-height: 25px;
+.footer-paragraph p {
+  color: var(--primary-color);
+  padding-left: 50px;
+  letter-spacing: 2px;
+  line-height: 25px;
 }
-.footer-paragraph p:nth-child(3){
-    font-family: "Bebas Neue", sans-serif;
-    height: 23vh;
+.footer-paragraph p:nth-child(3) {
+  font-family: "Bebas Neue", sans-serif;
+  height: 23vh;
 }
-.footer-wrapper div:nth-child(2){
-    color: var(--primary-color);
+.footer-wrapper div:nth-child(2) {
+  color: var(--primary-color);
 }
-.footer-wrapper div:nth-child(2) p{
-    font-family:"Bebas Neue", sans-serif;
-    letter-spacing: 2px;   
+.footer-wrapper div:nth-child(2) p {
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 2px;
 }
-.footer-wrapper div:nth-child(2) p i{
-    padding-right: 10px;
-    font-size: 22px;
+.footer-wrapper div:nth-child(2) p i {
+  padding-right: 10px;
+  font-size: 22px;
 }
-.socail-links i{
-    padding: 3px;
+.socail-links i {
+  padding: 3px;
 }
-.socail-links{
-    width: 42vw;
-    margin-top: auto;
-    padding: 30px;
+.socail-links {
+  width: 42vw;
+  margin-top: auto;
+  padding: 30px;
 }
-.contact-us{
-    gap: 10px;
+.contact-us {
+  gap: 10px;
 }
-.contact-us a, 
-.socail-links a{
-    text-decoration: none;
-    font-size: 20px;
-    color: var(--primary-color);
+.contact-us a,
+.socail-links a {
+  text-decoration: none;
+  font-size: 20px;
+  color: var(--primary-color);
 }
