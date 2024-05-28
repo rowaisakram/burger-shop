@@ -22,7 +22,7 @@ To get a local copy up and running, follow these simple steps:
    git clone https://github.com/rowaisakram/burger-shop.git
 2. **Navigate to the project directory**:
    ```sh
-   cd burger shop
+   cd burger-shop
 3. **Open index.html in your preferred web browser to see the website in action.**
 
 ## Contributing
